@@ -3,7 +3,7 @@ package OOP_Project;
 import java.util.ArrayList;
 
 class PropertyListing<T extends Property> {
-    private ArrayList<T> properties = new ArrayList<>();
+    public ArrayList<T> properties = new ArrayList<>();
 
 
     public void addProperty(T property) {
